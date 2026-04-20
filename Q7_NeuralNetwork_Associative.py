@@ -58,7 +58,7 @@ except ImportError:
 # =========================
 # Konfiguracija
 # =========================
-CSV_PATH = Path("/Users/4c/Desktop/GHQ/data/loto7hh_4600_k31.csv")
+CSV_PATH = Path("/data/loto7hh_4600_k31.csv")
 N_NUMBERS = 7
 N_MAX = 39
 
@@ -283,7 +283,7 @@ if __name__ == "__main__":
 Q7 NN (QAM — Quantum Associative Memory, Ventura-Martinez): CSV: /data/loto7hh_4600_k31.csv
 redova: 4600 | seed: 39
 BEST hparam: nq= 8 | hash: sum | M: 10 | iter: 3 (Δ vs k*: 1 ) | overlap²: 0.146087 | cos(bias, freq_csv): 0.995352
-predikcija NEXT: (2, 5, 14, 23, 36, 37, 38)
+predikcija NEXT: (2, 5, x, y, z, 37, 38)
 """
 
 
